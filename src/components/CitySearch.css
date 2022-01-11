@@ -1,0 +1,23 @@
+.zipcode_input {
+    margin-left: 200px;
+    margin-top: 12px;
+}
+
+.p_info {
+    margin-left: 131px;
+    padding-top: 15px;
+    font-weight: bold;
+    color: red;
+} 
+
+
+.locationInfo h1 {
+    color: red;
+    margin-left: 25px;
+    padding-top: 20px;
+}
+
+
+.locationInfo ul li {
+    list-style-type: none;
+}

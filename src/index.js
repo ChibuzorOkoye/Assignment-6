@@ -8,8 +8,8 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ZipSearch/>
-    {/* <CitySearch/> */}
+    {/* <ZipSearch/> */}
+    <CitySearch/>
   </React.StrictMode>,
   document.getElementById('root')
 );

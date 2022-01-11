@@ -42,7 +42,6 @@ class ZipSearch extends Component
 
                 console.log(data);
 
-                // object to hold all the new assignments from API
                 const newZipSearchObj = {
                     stateName: data[0].State,
                     cityName: data[0].City,
@@ -50,7 +49,6 @@ class ZipSearch extends Component
                     showInfo: true,
                 };
 
-                // changing state of variables according to API data
                 this.setState(newZipSearchObj);
                 console.log(this.state.population);
             }).catch((err) => console.log(err));
